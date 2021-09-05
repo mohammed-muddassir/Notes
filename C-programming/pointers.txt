@@ -1,0 +1,10 @@
+@ pointers 
+capable to store some address
+points the base Address (where the first byte is stored);
+
+eg:
+ 
+ int a=20;
+ int *p=&a; => here pointer (*p) stores the address(&a) of a;
+ here *p gives 20 and *(&a)=> also gives 20
+ 

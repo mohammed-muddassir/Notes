@@ -1,0 +1,28 @@
+when the program finish=> compile,run
+memory=>RAM
+compile => static memory alloc, not increased,arrays
+run => dynamic memory alloc,mem can be inc,linked list
+
+#stdlib.h
+malloc(), calloc()=> cont alloc ,
+realloc() => re allocation ,free()=> to free
+
+#malloc()
+single block of req memory
+has garbage value initially
+* it doesnt clear memory
+* returns null if mem not sufficient
+* size as parameter passed
+* size is allocated from heap
+
+@Syntax=>
+void *malloc (size_t size)
+
+eg: cpv=(char*)malloc(15);
+
+to print array values:
+
+printf("a[%d]value=%f Address=%u\n",i,*(a+i),(a+i));
+
+
+@char are stored in ascii values in memory
